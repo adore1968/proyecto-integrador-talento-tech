@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5f5;
+}
+
+main {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#carrito {
+  background-color: #f7f7f7;
+}
+
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+
+#carrito {
+  min-height: 100vh;
+}
+
+footer {
+  padding: 20px;
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-links a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+  transform: scale(1.2);
+}
+
+.container-productos {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9; /* Color de fondo del contenedor */
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+input[type='number'] {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+}
